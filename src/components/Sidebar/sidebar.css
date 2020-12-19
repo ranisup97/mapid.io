@@ -1,0 +1,130 @@
+
+.scrollSidebar {
+    position: fixed;
+    top: 450px;
+}
+.sidebar {
+    height: 80vh;
+    width: 300px;
+    max-width: 80vw;
+    left: 2vw;
+    z-index: 2;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-bottom: 1000px;
+    margin-right: 10px;
+    padding: 40px 18px 10px;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    background-color: #e4e4e4;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+.buttonShadow, .sidebar {
+    border: 1px solid #d8d8d8;
+    box-shadow: 0 0 6px hsla(0,0%,61.6%,.33);
+    -webkit-box-shadow: 0 0 6px hsla(0,0%,61.6%,.33);
+    -moz-box-shadow: 0 0 6px hsla(0,0%,61.6%,.33);
+}
+div{
+    display: block;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.textTableOfContent {
+    line-height: 12.5pt;
+    letter-spacing: .025em;
+}
+
+.buttonShadow {
+    text-align: center;
+    display: inline-block;
+    border-radius: 2rem 2rem 2rem 2rem;
+    background-color: #fff;
+    color: #565656;
+    padding: 8px 24px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.parentTableOfContent {
+    background-color: #2196f3;
+    color: #fff;
+    margin-top: 20px;
+}
+.buttonTableOfContent {
+    text-align: left;
+    display: block;
+    overflow-x: hidden;
+    border-radius: .5rem .5rem .5rem .5rem;
+    background-color: #fff;
+    border: 1px solid #d8d8d8;
+    color: #565656;
+    box-shadow: 0 0 6px hsla(0,0%,61.6%,.33);
+    -webkit-box-shadow: 0 0 6px hsla(0,0%,61.6%,.33);
+    -moz-box-shadow: 0 0 6px hsla(0,0%,61.6%,.33);
+    padding: 10px 10px 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.scrollOpenbtn {
+    position: fixed;
+    top: 430px;
+}
+.btnsliderr{
+    z-index: 2;
+    margin-left: 2vw;
+}
+.stickySidebar {
+    position: fixed;
+    top: 100px;
+}
+
+.stickyOpenbtn {
+    position: fixed;
+    top: 80px;
+}
+.openbtn {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 50% 50% 50% 50%;
+    background-color: #2ca1fd;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px solid #d8d8d8;
+    box-shadow: 0 0 6px hsla(0,0%,61.6%,.33);
+    -webkit-box-shadow: 0 0 6px hsla(0,0%,61.6%,.33);
+    -moz-box-shadow: 0 0 6px hsla(0,0%,61.6%,.33);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: calc((2vw + 300px)/2);
+    z-index: 1;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+}
+.pie{
+    margin-bottom: 200px;
+}
+.sideleft{
+    left: 2vw;
+}
+.sidemargin{
+    margin-bottom: 500px;
+}
+.background{
+    background: linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.733), rgb(255, 255, 255)), url(&quot;https://s3.us-west-2.amazonaws.com/machrus/doc_pictures/1608190614.png&quot;) center 38% / cover no-repeat;
+}
+.photo{
+    margin-top: 30px;
+}
+.name{
+    display: inline-block; 
+    vertical-align: middle; 
+    margin-left: 10px; 
+    font-size: 17px; 
+    color: black;
+}
