@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "./mapidkompas.css";
+import "./mapidbandung.css";
 import Axios from "axios";
 import { Sidebar } from "../../../components";
-class MapidKompas extends Component {
+class MapidBandung extends Component {
   state = {
     data: [],
     dataUser: [],
@@ -10,7 +10,7 @@ class MapidKompas extends Component {
   componentDidMount() {
     Axios.get("http://api.mapid.io/blog/get_list_docs_public/blog")
       .then((res) => {
-        this.setState({ data: res.data[21] });
+        this.setState({ data: res.data[22] });
         console.log("GET data berhasil", res.data);
       })
       .catch((err) => {
@@ -19,8 +19,8 @@ class MapidKompas extends Component {
 
     Axios.get("http://api.mapid.io/blog/get_list_docs_public/blog")
       .then((res) => {
-        this.setState({ dataUser: res.data[21].authors[0].user });
-        console.log("GET data user berhasil", res.data[21].authors[0].user);
+        this.setState({ dataUser: res.data[22].authors[0].user });
+        console.log("GET data user berhasil", res.data[22].authors[0].user);
       })
       .catch((err) => {
         console.log(err.message);
@@ -59,4 +59,4 @@ class MapidKompas extends Component {
   }
 }
 
-export default MapidKompas;
+export default MapidBandung;
