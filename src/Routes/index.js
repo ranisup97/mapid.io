@@ -12,6 +12,7 @@ import {
   Unjani,
 } from "../page/Seminar";
 import { Kemenperin, Mapid, TechInAsia, GKPlug } from "../page/Achievement";
+import {MapidNews, InCollaboration, MapidDufan , Early, Mapping} from "../page/News"
 
 const Routes = () => {
   return (
@@ -39,6 +40,13 @@ const Routes = () => {
         <Route component={Mapid} path="/blog/mapid_berhasil_menjadi_salah_satu_startup_terpilih_dalam_mrt_accel_2020" />
         <Route component={TechInAsia} path="/blog/tech_in_asia_conference_2019" />
         <Route component={GKPlug} path="/blog/gk_plug_and_play_batch_50" />
+        
+        <Route component={MapidNews} path="/blog/mapid_bersama_doctorshare_perangi_covid19_dengan_memetakan_kebutuhan_apd_di_indonesia" />
+        
+        <Route component={InCollaboration} path="/blog/in_collaboration_with_doctorshare_to_map_ppe_apd_needs_with_geo_mapid" />
+        <Route component={MapidDufan} path="/blog/mapid_outing_at_dufan_ancol" />
+        <Route component={Early} path="/blog/early_warning_system_on_smartwatch" />
+        <Route component={Mapping} path="/blog/mapping_jakarta_flood_with_mapid" />
       </Switch>
     </BrowserRouter>
   );

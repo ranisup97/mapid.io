@@ -1,0 +1,233 @@
+.header{
+    margin-bottom: 200px;
+}
+
+.titleWrapermapidnews{
+    display: block;
+    min-height: 500px;
+    position: relative;
+    background-color: #0575e6;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,.08)),color-stop(hsla(0,0%,100%,.08)),color-stop(hsla(0,0%,100%,.08)),color-stop(hsla(0,0%,100%,.73)),to(#fff)),-webkit-gradient(linear,left bottom,left top,from(#00f260),to(#0575e6));
+    background-image: linear-gradient(hsla(0,0%,100%,.08),hsla(0,0%,100%,.08),hsla(0,0%,100%,.08),hsla(0,0%,100%,.73),#fff),linear-gradient(0deg,#00f260,#0575e6);
+}
+.bgphotomapidnews{
+    background: linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.733), rgb(255, 255, 255)), url(https://s3.us-west-2.amazonaws.com/machrus/doc_pictures/1591692998.png) center 38% / cover no-repeat;
+    
+}
+
+@media (min-width: 801px){
+.dashboardSpecialk {
+    padding-right: 30px;
+    padding-left: 30px;
+}}
+
+@media (min-width: 600px){
+.dashboardSpecialk {
+    padding-right: 30px;
+    padding-left: 30px;
+}}
+
+@media (min-width: 480px){
+.dashboardSpecialk {
+    padding-right: 10px;
+    padding-left: 10px;
+}}
+
+@media (min-width: 320px){
+.dashboardSpecialk {
+    padding-right: 10px;
+    padding-left: 10px;
+}}
+.titleDocument {
+    font-weight: bolder;
+    color: #000;
+    line-height: 110%;
+    position: absolute;
+    top: 70%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+@media (min-width: 801px){
+    .titleDocument {
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 600px){
+.titleDocument {
+    font-size: 100px;
+}}
+
+@media (min-width: 480px){
+.titleDocument {
+    font-size: 50px;
+}}
+@media (min-width: 320px){
+.titleDocument {
+    font-size: 50px;
+}}
+
+
+/* content */
+
+.documentContainer {
+    width: 720px;
+    max-width: 80vw;
+}
+
+@media (min-width: 801px){
+.documentContainer {
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media (min-width: 600px){
+.documentContainer {
+    margin-left: auto;
+    margin-right: auto;
+}}
+
+@media (min-width: 480px){
+.documentContainer {
+    margin-left: auto;
+    margin-right: auto;
+}}
+
+@media (min-width: 320px){
+.documentContainer {
+    margin-left: auto;
+    margin-right: auto;
+}}
+
+.profile{
+    margin-top: 30px;
+}
+
+.profilename{
+    display: inline-block; vertical-align: middle; margin-left: 10px; font-size: 17px; color: black;
+}
+
+.profiledate{
+    font-size: 12px; color: black;
+}
+
+.photoprofile {
+    background: url(https://s3.us-west-2.amazonaws.com/machrus/profile_picture/iotmapid/iotmapid_1571800452566.jpeg) no-repeat center center/ cover;
+    background-color: #dcdcdc;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+    vertical-align: middle;
+    border: 2px solid #b0b0b0;
+    box-shadow: 0 0 12px #0000004e;
+    -webkit-box-shadow: 0 0 12px #0000004e;
+    -moz-box-shadow: 0 0 12px #0000004e;
+}
+.DraftEditor-root {
+    position: relative;
+}
+
+.DraftEditor-editorContainer, .DraftEditor-root, .public-DraftEditor-content {
+    height: inherit;
+    text-align: left;
+    text-align: initial;
+}
+.DraftEditor-editorContainer {
+    background-color: hsla(0,0%,100%,0);
+    border-left: .1px solid transparent;
+    position: relative;
+    z-index: 1;
+}
+.DraftEditor-editorContainer, .DraftEditor-root, .public-DraftEditor-content {
+    height: inherit;
+    text-align: left;
+    text-align: initial;
+}
+
+.public{
+    outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;
+}
+
+.RichEditor-editor .public-DraftEditor-content {
+    min-height: 100px;
+}
+.RichEditor-editor .public-DraftEditor-content, .RichEditor-editor .public-DraftEditorPlaceholder-root {
+    margin: 0 -15px -15px;
+    padding: 15px;
+}
+
+.DraftEditor-editorContainer, .DraftEditor-root, .public-DraftEditor-content {
+    height: inherit;
+    text-align: left;
+    text-align: initial;
+}
+.RichEditor-editor {
+    cursor: text;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #343434;
+    line-height: 20pt;
+    letter-spacing: .02em;
+}
+.public-DraftStyleDefault-ltr {
+    direction: ltr;
+    text-align: left;
+}   
+.public-DraftStyleDefault-block {
+    position: relative;
+    white-space: pre-wrap;
+}
+
+.content1u{
+    margin: 10px;
+    padding-top: 60px;
+    font-size: 150%;
+}
+
+.content2u{
+    margin: 10px;
+    padding-top: 30px;
+    font-size: 150%;
+}
+.content3u{
+    margin: 10px;
+    padding-top: 10px;
+    font-size: 150%;
+}
+.imagetech{
+    
+    padding-top: 30px;
+    text-align: center;
+}
+
+.content24{
+    padding-top: 30%;
+}
+
+.RichEditor-editor .RichEditor-blockquote {
+    border-left: 5px solid #eee;
+    color: #666;
+    font-family: Hoefler Text,Georgia,serif;
+    font-style: italic;
+    margin: 16px 0;
+    padding: 10px 20px;
+}
+blockquote {
+    margin: 0 0 1rem;
+}
+.public-DraftStyleDefault-ltr {
+    direction: ltr;
+    text-align: left;
+}
+.public-DraftStyleDefault-block {
+    position: relative;
+    white-space: pre-wrap;
+}
+
+.quote{
+    font-weight: bold;
+}
